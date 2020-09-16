@@ -1,0 +1,65 @@
+/* ------------------------------
+
+  カラー
+
+------------------------------ */
+
+$color-red: #f30b7b;
+$color-blue: #72ded7;
+$color-gray: #818181;
+
+/* ------------------------------
+
+  レスポンシブ
+
+------------------------------ */
+
+$container_size: 750px;
+
+////ブレイクポイント
+//$pc: $container_size; // デスクトップ
+//$sp: 768px; // スマホ
+//
+////メディアクエリ
+//$mq_pc: "screen and (min-width: #{$sp + 1px})";
+//$mq_sp: "screen and (max-width: #{$sp})";
+//
+//.pc_none {
+//  display: none;
+//  @media #{$mq_sp} {
+//    display: block;
+//  }
+//}
+//.sp_none {
+//  display: none;
+//  @media #{$mq_pc} {
+//    display: block;
+//  }
+//}
+
+/* ------------------------------
+
+  フォント
+
+------------------------------ */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  //font-family: "Noto Serif JP", "Cinzel", serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #fff;
+  background-color: #000;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
